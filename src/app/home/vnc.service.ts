@@ -12,7 +12,7 @@ export class VncService {
       credentials: { password: password }, // 只包含密碼
     });
 
-    this.rfb.addEventListener('connect', () => {=
+    this.rfb.addEventListener('connect', () => {
       console.log('VNC connected');
     });
 

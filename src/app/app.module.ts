@@ -13,6 +13,7 @@ import { Header2Component } from './shared/header2/header2.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { GoogleChartsModule } from 'angular-google-charts';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GoogleChartsModule  // 加入這行
   ],
   providers: [],
   bootstrap: [AppComponent]
